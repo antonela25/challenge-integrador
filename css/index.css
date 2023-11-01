@@ -58,7 +58,7 @@
        font-size: 62.5%;
        color:var(--dark-solid);}  
 
- img{ width: 100%;} 
+ img{ width: 100%;} /*siempre va a tener el ancho max de su contenedor padre*/
 
  a{ text-decoration: none;
     font-family: inherit;
@@ -101,7 +101,6 @@ header{
 .navbar__link{ 
     font-size: var(--font-medium);
     font-family: var(--alternative-font); 
-    color:var(--light-bg-solid);
     padding: var(--spacing-8) var(--spacing-16);
     display: inline-block;
     transition:background .3s ease-in-out;
@@ -238,7 +237,7 @@ header{
 
 /*edicion para iconify*/  
     iconify-icon{
-        color:var(--dark-bg-solid) ;
+        color:var(--light-bg-solid) ;
         font-size: var(--font-small);
         font-weight: 700;}
 
